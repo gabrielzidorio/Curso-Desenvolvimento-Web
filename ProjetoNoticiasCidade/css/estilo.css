@@ -52,5 +52,26 @@ ul {
 	line-height: 2.1em;
 	text-decoration: none;
 	color: white;
+	background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+	background: none;
+}
+
+#topo ul a:hover {
+	border-bottom: 0.3em solid whitesmoke;
+}
+
+body.home #navegacao a#home, 
+body.brasil #navegacao a#brasil, 
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos 
+{
+	border-bottom: 0.3em solid whitesmoke;
+	cursor: text;
 }
 /*------------------*/
