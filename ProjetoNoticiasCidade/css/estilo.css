@@ -29,6 +29,11 @@ body {
 /*------------------*/
 
 /*BARRA DE NAVEGAÇÃO*/
+a:link, a:visited {
+	color: #b10333;
+	padding: 2px;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -190,6 +195,51 @@ h3 {
 .destaque h3 {
 	background: #b10333;
 	color: white
+}
+/*------------------*/
+
+/*FORMATAR LISTA NOTICIAS*/
+#lista-noticias li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 60px;
+}
+
+#lista-noticias li a img{
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a {
+	text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+	padding: 0;
+	font-size: 0.9em;
+	color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+	font-size: 0.7em;
+	color: black;
+}
+
+#lista-noticias li:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+/*------------------*/
+
+/*FORMATAR PAGINAS UMA COLUNA*/
+#uma-coluna #primario p {
+	margin-top: 6px;
+	text-justify: auto;
+	letter-spacing: 0.7px;
+}
+
+#uma-coluna #primario h2 {
+	text-transform: uppercase;
 }
 /*------------------*/
 
