@@ -1,0 +1,125 @@
+body {
+    background: url(../images/capa.png),
+                url(../images/ruido.png),
+                linear-gradient(50deg, #ff4169, #7626f8);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body, section#home {
+    height: 100%;
+}
+
+span#logo {
+    display: inline-block;
+    text-indent: -3000px;
+}
+
+.opacity {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 0;
+}
+
+#menu .menu-item a {
+    color: white;
+    font-weight: bolder;
+}
+
+#menu .menu-item a:hover,
+#menu .nav-item .nav-link:hover {
+    color: #1DB954;;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0)
+}
+
+.separator {
+    width: 1px;
+    background: white;
+    margin: 12px;
+}
+
+.cover {
+    text-align: center;
+    color: white
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+    text-transform: uppercase;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-purple {
+    background: #7c25f8;
+}
+
+.btn-purple:hover {
+    background: #6207e3;
+    color: white;
+}
+
+.btn-white {
+    border: 2px solid white;
+}
+
+.btn-white:hover {
+    background: white;
+    color: black;
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .btn-custom {
+        margin: 10px 10px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h1 {
+        font-size: 3em;
+    }
+
+    .btn-custom {
+        margin: 10px 10px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    h1 {
+        font-size: 4em;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1 {
+        font-size: 5em;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 6em;
+    }
+ }
