@@ -176,6 +176,10 @@ h3 {
     .btn-custom {
         margin: 10px 10px;
     }
+
+    .pl-4 {
+        padding-left: 0;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -188,7 +192,7 @@ h3 {
         margin: 10px 10px;
     }
 
-    .nav-link {
+    .pl-4 {
         padding-left: 0;
     }
  }
