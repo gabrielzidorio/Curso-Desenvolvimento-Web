@@ -8,7 +8,6 @@ body {
 
 html, body, section#home {
     height: 100%;
-    overflow-x: hidden;
 }
 
 span#logo {
@@ -80,99 +79,14 @@ span#logo {
     color: black;
 }
 
-.box {
-    padding: 20px 0;
-}
-
-#services {
-    background: white;
-}
-
-#services h2, h3 {
-    color: #7c25f8;
-}
-
-#resources h2, #resources p {
-    color: white;
-}
-
-#resources h3 {
-    color: #9bf0e1;
-}
-
-.albums {
-    padding: 10px 0;
-}
-
-.rotate {
-    transform: rotate(30deg);
-    -webkit-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -ms-transform: rotate(30deg);
-    -o-transform: rotate(30deg);
-    padding-left: 80px;
-}
-
-footer {
-    background: black;
-    padding: 50px 0 20px 0;
-    position: relative;
-}
-
-footer h4 {
-    color: #919496;
-    font-size: 0.8em;
-    text-transform: uppercase;
-}
-
-footer .navbar-nav a {
-    color: white;
-    font-size: 0.8em;
-}
-
-footer .navbar-nav a:hover {
-    color: #1DB954;
-    font-size: 0.8em;
-    text-decoration: none;
-}
-
-footer ul {
-    list-style: none;
-}
-
-footer ul .social-icon {
-    float: right;
-    margin: 0 7px;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: #1DB954;
-}
-
 h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
 }
 
-h2 {
-    font-size: 3em;
-    font-weight: 700;
-    letter-spacing: -0.04em;
-}
-
-h3 {
-    font-size: 2em;
-    font-weight: 700;
-    letter-spacing: -0.04em;
-}
-
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-    h1 {
-        font-size: 2em;
-    }
-
     .btn-custom {
         margin: 10px 10px;
     }
@@ -186,10 +100,6 @@ h3 {
 
     .btn-custom {
         margin: 10px 10px;
-    }
-
-    .nav-link {
-        padding-left: 0;
     }
  }
 
