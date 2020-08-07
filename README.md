@@ -1,7 +1,7 @@
 # Curso Desenvolvimento Web
 Projetos desenvolvidos durante o curso de desenvolvimento web.
 
-## 1. Módulo CSS3
+## 1. CSS3 básico
 Projetos desenvolvidos com o uso das tecnologias HTML5 e CSS3.
 * [Anna Bella Modelo (Site pessoal de uma modelo fictícia)](https://github.com/gabrielzidorio/Curso-Desenvolvimento-Web/tree/master/AnnaBellaModelo).
 * [TecBlog (Blog de tecnologia)](https://github.com/gabrielzidorio/Curso-Desenvolvimento-Web/tree/master/TecBlog).
