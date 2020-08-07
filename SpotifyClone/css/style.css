@@ -136,6 +136,10 @@ footer .navbar-nav a:hover {
     text-decoration: none;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    width: 3%;
+}
+
 footer ul {
     list-style: none;
 }
