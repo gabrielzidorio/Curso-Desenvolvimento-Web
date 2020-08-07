@@ -7,12 +7,12 @@ Projetos desenvolvidos com o uso das tecnologias HTML5 e CSS3.
 * [TecBlog (Blog de tecnologia)](https://github.com/gabrielzidorio/Curso-Desenvolvimento-Web/tree/master/TecBlog).
 
 ## 2. CSS3 Intermediário & avançado
-Projetos desenvolvidos utilizando mais recursos das tecnologias citadas.
+Projetos desenvolvidos utilizando mais recursos das tecnologias HTML5 e CSS3.
 * [Notícias Cidade (Portal de notícias)](https://github.com/gabrielzidorio/Curso-Desenvolvimento-Web/tree/master/NoticiasCidade).
 * [Chalé Hotel (Página publicitária)](https://github.com/gabrielzidorio/Curso-Desenvolvimento-Web/tree/master/ChaleHotel).
 
 ## 3. HTML5 e CSS3 - Recursos especiais
-Projeto desenvolvido com os recursos mais recentes das tecnologias citadas.
+Projeto desenvolvido com os recursos mais recentes das tecnologias HTML5 e CSS3.
 * [Museu Nacional (Página fictícia do Museu Nacional - UFRJ)](https://github.com/gabrielzidorio/Curso-Desenvolvimento-Web/tree/master/MuseuNacional).
 
 ## 4. Bootstrap 4 & Design responsivo
