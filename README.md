@@ -13,7 +13,7 @@ Projetos desenvolvidos utilizando mais recursos das tecnologias citadas.
 
 ## 3. HTML5 e CSS3 - Recursos especiais
 Projeto desenvolvido com os recursos mais recentes das tecnologias citadas.
-* [Museu Nacional (Página fictícia do Museu Nacional - UFRJ](https://github.com/gabrielzidorio/Curso-Desenvolvimento-Web/tree/master/MuseuNacional).
+* [Museu Nacional (Página fictícia do Museu Nacional - UFRJ)](https://github.com/gabrielzidorio/Curso-Desenvolvimento-Web/tree/master/MuseuNacional).
 
 ## 4. Bootstrap 4 & Design responsivo
 Projetos responsivos desenvolvidos com o uso da framework Bootstrap 4.
