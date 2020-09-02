@@ -1,6 +1,4 @@
 function calcular(tipo, valor) {
-    var total = 0, numero = 0;
-
     if (tipo === 'acao') {
         if (valor === 'c') {
              //LIMPAR DISPLAY
