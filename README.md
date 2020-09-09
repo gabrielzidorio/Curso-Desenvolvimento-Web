@@ -20,6 +20,6 @@ Projetos responsivos desenvolvidos com o uso da framework Bootstrap 4.
 * [Finans (Página de um serviço de finanças inspirada em um site real)](https://github.com/gabrielzidorio/Curso-Desenvolvimento-Web/tree/master/Finans).
 * [Spotify Clone (Página que recria uma versão anterior do Spotify)](https://github.com/gabrielzidorio/Curso-Desenvolvimento-Web/tree/master/SpotifyClone).
 
-## 4. JavaScript
+## 5. JavaScript
 Apps desenvolvidos com a linguagem JavaScript.
 * [Calculadora](https://github.com/gabrielzidorio/Curso-Desenvolvimento-Web/tree/master/AppCalculadora).
