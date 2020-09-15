@@ -1,7 +1,8 @@
 let altura;
 let largura;
 let vidas = 1;
-let tempo = 10;
+let restantes;
+let karol;
 
 let criaMoscaTempo;
 
@@ -14,10 +15,24 @@ nivel = nivel.replace('?', '');
 //APLICA OS NÍVEIS DE DIFICULDADE
 if (nivel === 'larva') {
     criaMoscaTempo = 1500;
+    restantes = 10;
 } else if (nivel === 'mosca') {
     criaMoscaTempo = 1000;
+    restantes = 20;
 } else if (nivel === 'varejeira') {
     criaMoscaTempo = 800;
+    restantes = 30;
+} else if (nivel === 'tsetse') {
+    karol = prompt('Qual o nome da sua cachorra?');
+
+    karol = karol.toLowerCase();
+
+    if (karol === 'nina') {
+        window.location.href = "vitoria.html";
+    } else {
+        criaMoscaTempo = 500;
+        restantes = 50;
+    }
 }
 
 //DEFINE A ÁREA EM QUE AS MOSCAS APARECERÃO
@@ -27,18 +42,6 @@ function ajustaTamanhoPalcoJogo() {
 }    
     
 ajustaTamanhoPalcoJogo();
-
-let cronometro = setInterval(function() {
-    tempo--;
-
-    if (tempo < 0) {
-        clearInterval(cronometro);
-        clearInterval(criaMosca);
-        window.location.href = "vitoria.html";
-    } else {
-        document.getElementById('cronometro').innerHTML = tempo;
-    }
-}, 1000);
 
 function posicaoRandomica() {
     //REMOVER MOSCA ANTERIOR
@@ -50,7 +53,6 @@ function posicaoRandomica() {
             document.getElementById('coracao' + vidas).src = "images/coracao_vazio.png";
             vidas++;
         } else {
-            clearInterval(cronometro);
             clearInterval(criaMosca);
             window.location.href = 'gameOver.html';
         }
@@ -74,6 +76,12 @@ function posicaoRandomica() {
     mosca.id = 'mosca';
     mosca.onclick = function() {
         this.remove();
+        restantes--;
+        document.getElementById('restantes').innerHTML = restantes;
+        if (restantes === 0) {
+            clearInterval(criaMosca);
+            window.location.href = "vitoria.html";
+        }
     }
 
     document.body.appendChild(mosca);
